@@ -1,1 +1,66 @@
-<h1>About Me & Skills</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ulker Mirzeli — About Me & Skills</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .skills-list { display:flex; flex-wrap:wrap; gap:10px; list-style:none; padding:0; margin-top:10px; }
+    .skills-list li { background:#2563eb; color:#fff; padding:8px 16px; border-radius:25px; font-size:14px; font-weight:500; transition:transform 0.2s; }
+    .skills-list li:hover { transform:scale(1.05); }
+    .section { margin-bottom:30px; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Ulkar Mirzali</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About me & Skills</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+      <button class="burger" id="burger2">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="section">
+      <h1>About Me</h1>
+      <p>Hi, I’m <strong>Ulkar Mirzali</strong>, a second-year student at <strong>Azerbaijan State Oil and Industry University (ADNSU)</strong>, studying <strong>Information Security</strong>. I graduated from <strong>School No. 329</strong> and entered the university with a score of <strong>639.7</strong>. I am passionate about web development and cyber security, always seeking to learn new technologies and improve my skills. My goal is to combine academic knowledge with practical experience to contribute to meaningful projects and make a positive impact in the digital world.</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+        <li>Figma</li>
+        <li>VS Code</li>
+        <li>Chrome DevTools</li>
+        <li>Problem-solving</li>
+        <li>Teamwork</li>
+        <li>Adaptability</li>
+        <li>Creativity</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>©️ <span id="year2"></span> Ulkar Mirzali</div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/ulker-mirzeli-568a65363" target="_blank">LinkedIn</a>
+        <a href="https://instagram.com/7_ulker" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
